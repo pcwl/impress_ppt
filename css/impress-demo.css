@@ -156,11 +156,6 @@ body     { pointer-events: auto; }
     -o-transform:      translateY(0px);
     transform:         translateY(0px);
 
-    -webkit-transition: opacity 1s , -webkit-transform 0.5s 1s;
-    -moz-transition:    opacity 1s ,    -moz-transform 0.5s 1s;
-    -ms-transition:     opacity 1s ,     -ms-transform 0.5s 1s;
-    -o-transition:      opacity 1s ,      -o-transform 0.5s 1s;
-    transition:         opacity 1s ,         transform 0.5s 1s;
 }
 
 /* overview step */
@@ -199,7 +194,7 @@ body     { pointer-events: auto; }
 
     border: 1px solid rgba(0, 0, 0, .3);
 
-    font-family: Tahoma, 隶书, cursive;
+    font-family: Georgia, 幼圆, cursive;
 
     color: rgb(112, 66, 20);
 
