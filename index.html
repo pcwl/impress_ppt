@@ -55,8 +55,8 @@
     For example this fallback message is only visible when there is `impress-not-supported` class on body.
 -->
 <div class="fallback-message">
-    <p>你的浏览器<b>不支持</b> impress.js 特性，所以页面以简化的形式呈现。</p>
-    <p>为了获得最好的体验请使用最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
+    <p>你的浏览器<b>不支持</b> impress.js 特性，所以页面以朴素的形式呈现。</p>
+    <p>为了获得最好的体验请使用先进的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
 </div>
 
 <!--
@@ -99,11 +99,11 @@
         It will not be rotated or scaled.
         
     -->
-    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
-        <q>      ☞ data-x = 幻灯片的x轴（→）坐标
-            </br>☞ data-y = 幻灯片的y轴（↓）坐标
-            </br>☞ data-z = 幻灯片的z轴（・）坐标
-            </q>
+    <div class="step slide" data-x="-100" data-y="-1800" data-z="-300" data-rotate-x="90">
+        <p>      ☞ data-x = 幻灯片x轴（→）的坐标
+            </br>☞ data-y = 幻灯片y轴（↓）的坐标
+            </br>☞ data-z = 幻灯片z轴（・）的坐标
+            </p>
     </div>
 
     <!--
@@ -121,16 +121,16 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
     -->
-    <div class="step slide" data-x="0" data-y="-1500">
-        <q> ☞ data-scale = 缩放倍数，data-scale＝5则将会在你幻灯片原始尺寸基础放大5倍
-        </q>
+    <div class="step slide" data-x="-100" data-y="-1500" data-z="0">
+        <p> ☞ data-scale = 缩放倍数，data-scale＝5则将会在你幻灯片原始尺寸基础放大5倍<a href="http://prezi.com">prezi.com</a>
+        </p>
     </div>
 
-    <div class="step slide" data-x="1000" data-y="-1500">
-        <q>      ☞ data-rotate-x = 角度（＋为x轴方向顺时针旋转）
+    <div class="step slide" data-x="-100" data-y="-1200" data-z="-300" data-rotate-x="-90">
+        <p>      ☞ data-rotate-x = 角度（＋为x轴方向顺时针旋转）
             </br>☞ data-rotate-y = 角度（－为y轴方向逆时针旋转）
             </br>☞ data-rotate-z = 角度（或data-rotate = 角度）
-        </q>
+        </p>
     </div>
 
     <!--
@@ -143,9 +143,9 @@
         down (4 times) to make it back to it's correct size.
         
     -->
-    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+    <div class="step" data-x="0" data-y="0" data-scale="4">
         <span class="try">then you should try</span>
-        <h1>impress.js</h1>
+        <h1>impress.js*送</h1>
         <span class="footnote">* no rhyme intended</span>
     </div>
 
@@ -159,7 +159,7 @@
     -->
     <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
         <p>It's a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
+        inspired by the idea behind <br/>
         and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
     </div>
 
@@ -249,7 +249,7 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
         
     -->
-    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    <div id="overview" class="step" data-x="0" data-y="0" data-scale="20">
     </div>
 
 </div>
@@ -279,7 +279,7 @@
     
 -->
 <div class="hint">
-    <p>使用空格或方向建控制</p>
+    <p><a href="file:///Users/pcwl/Desktop/code/git/pcwl.github.io/index.html#/overview">主页</a></p>
 </div>
 <script>
 if ("ontouchstart" in document.documentElement) { 
