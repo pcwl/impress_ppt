@@ -203,16 +203,12 @@ body     { pointer-events: auto; }
     
     display: none;
     width: 1024px;
-    padding: 10px;
-    margin: 20px auto;
+    padding: 20px;
+    margin: 20px;
 
     border-radius: 10px;
     border: 1px solid #E4C652;
     background: #EEDC94;
-}
-
-.fallback-message p {
-    margin-bottom: 20px;
 }
 
 .impress-disabled .step,
