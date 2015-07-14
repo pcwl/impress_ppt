@@ -6,32 +6,23 @@
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>4维笔记</title>
-    
-    <meta name="description" content="my note based on impress.js" />
-    <meta name="author" content="pcwl" />
-
-    <link rel="stylesheet"          href="css/impress-demo.css"  />
-    <link rel="shortcut icon"       href="/img/favicon.png" />
-    <link rel="apple-touch-icon"    href="/img/apple-touch-icon.png" />
+    <link rel="stylesheet"          href="css/impress-demo.css" />
+    <link rel="shortcut icon"       href="img/wapple.png" />
 </head>
 
-<body class="impress-not-supported">
-
-<div class="fallback-message">
-    <p>你的浏览器<b>不支持</b> impress.js 特性，所以页面以朴素的形式呈现。</p>
-    <p>为了获得最好的体验请使用先进的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
-</div>
+<body>
 
 <div id="impress">
 
-    <div id="overview" class="step" data-x="0" data-y="0" data-scale="12">
-        <img src="img/apple1.png"/>
+    <div id="overview" class="step" data-x="0" data-y="0" data-scale="10">
+        <img src="img/wapple.png"/>
+        <p>Think different</p>
     </div>
 
-    <div class="step slide" data-x="0" data-y="0" data-z="0">
+    <div class="step slide" data-x="2400" data-y="-400" data-z="0">
         <p>
             2014-12-30
-            <br/><b><a href="https://github.com/bartaz/impress.js">impress.js</a></b>
+            <br/><a href="https://github.com/bartaz/impress.js">impress.js</a>
             <br/>☞ data-x = x轴（→）坐标
             <br/>☞ data-y = y轴（↓）坐标
             <br/>☞ data-z = z轴（・）坐标
@@ -42,9 +33,9 @@
         </p>
     </div>
 
-    <div class="step slide" data-x="0" data-y="768">
+    <div class="step slide" data-x="3200" data-y="-400">
         2015-1-5
-        <br/><b>linux</b>
+        <br/>linux
         <br/>☞内核，shell，支撑程序，X window
         <br/>☞echo 显示到标准输出
         <br/>☞pwd 定位当前路径
@@ -53,30 +44,41 @@
         <br/>☞uname -a，查看内核信息
     </div>
 
-    <div class="step slide" data-x="1024" data-y="768">
+    <div class="step slide" data-x="4000" data-y="-400">
         2015-1-7
-        <br/><b>linux文件操作命令</b>
-        <br/>ls ☞ 列出目录内容（文件）
-        <br/>cp ☞ 复制文件
-        <br/>mv ☞ 重命名（移动）文件
-        <br/>rm ☞ 删除文件
-        <br/>ln ☞ 创建文件链接
+        <br/>linux文件操作命令
+        <br/>☞ ls 列出目录内容（文件）
+        <br/>☞ cp 复制文件
+        <br/>☞ mv 重命名（移动）文件
+        <br/>☞ rm 删除文件
+        <br/>☞ ln 创建文件链接
     </div>
 
-    <div class="step slide" data-x="0" data-y="1536">
+    <div class="step slide" data-x="4800" data-y="-400">
         2015-1-7
-        <br/><b>mac</b>
-        <br/><a href="https://github.com/gnachman/iTerm2">iTerm2</a>☞mac终端
-        <br/><a href="https://github.com/Homebrew/homebrew">homebrew</a>☞OS X 不可或缺的套件管理器
-        <br/><a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>☞Zsh configuration
-        <br/><a herf="https://wiki.freebsdchina.org/software/t/tmux#使用tmux">☞tmux</a>终端复用软件
+        <br/>mac
+        <br/><a href="https://github.com/gnachman/iTerm2">iTerm2</a> ☞ mac终端
+        <br/><a href="https://github.com/Homebrew/homebrew">homebrew</a> ☞ OS X 不可或缺的套件管理器
+        <br/><a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a> ☞ Zsh configuration
+        <br/><a herf="https://wiki.freebsdchina.org/software/t/tmux#使用tmux">tmux</a> ☞ 终端复用软件
     </div>
 
-    <div class="step slide" data-x="2048" data-y="768">
+    <div class="step slide" data-x="5600" data-y="-400">
         2015-1-30
-        <br/><b>命令速查</b>
+        <br/>命令速查
         <br/><a href="img/vim_cheat_sheet.png">vim命令图解</a>
+        <br/>zo打开代码折叠
         <br/><a href="img/git_cheat_sheet.png">git命令图解</a>
+    </div>
+
+    <div class="step slide" data-x="6400" data-y="-400">
+        2015-7-13
+        <br/>5个必知的Unix命令
+        <br/>☞ man ascii打印ASCII码表
+        <br/>☞ cal显示日历
+        <br/>☞ mdfind文件查询
+        <br/>☞ ssh功能强大
+        <br/>☞ xxd
     </div>
 
 </div>
@@ -84,7 +86,6 @@
 <div class="hint">
     <p><a href="#/overview">主页</a></p>
 </div>
-
 <script>
 if ("ontouchstart" in document.documentElement) { 
     document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
@@ -93,7 +94,6 @@ if ("ontouchstart" in document.documentElement) {
 
 <script src="js/impress.js"></script>
 <script>impress().init();</script>
-
 
 </body>
 </html>

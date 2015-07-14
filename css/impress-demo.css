@@ -47,7 +47,7 @@ table {
 
 
 body {
-    font-family: 微软雅黑;
+    font-family: Dejavu Sans Mono;
     
     min-height: 100px;
 /*
@@ -67,6 +67,7 @@ i, em { font-style: italic}
 
 a {
     color: rgb(65,131,196);
+
     text-decoration: none;
 
     -webkit-transition: 0.5s;
@@ -87,8 +88,8 @@ body     { pointer-events: auto; }
 /* COMMON STEP STYLES */
 
 .step {
-    width: 1024px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing:    border-box;
@@ -96,10 +97,10 @@ body     { pointer-events: auto; }
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 微软雅黑;
+    font-family: Dejavu Sans Mono;
 
-    font-size: 40px;
-    line-height: 1;
+    font-size: 50px;
+    line-height: 2;
 }
 
 .step {
@@ -108,6 +109,10 @@ body     { pointer-events: auto; }
     -ms-transition:     opacity 1s;
     -o-transition:      opacity 1s;
     transition:         opacity 1s;
+}
+
+.step:p{
+
 }
 
 /* fade out inactive slides */
@@ -128,10 +133,10 @@ body     { pointer-events: auto; }
     color: #000000;
     text-align: left;
 
-    font-family: 微软雅黑;
+    font-family: Dejavu Sans Mono;
 
-    font-size: 40px;
-    padding: 20px;
+    font-size: 30px;
+    padding: 15px;
 
     z-index: 1;
 
@@ -149,7 +154,6 @@ body     { pointer-events: auto; }
 
 #overview {
     z-index: -1;
-    padding: 0;
     text-align:center;
 }
 
@@ -171,53 +175,17 @@ body     { pointer-events: auto; }
 .slide {
     display: block;
 
-    width: 1024px;
-    height: 768px;
+    width: 700px;
+    height: 700px;
 
     padding: 60px;
 
-    border-radius: 10px;
-
     background-color: rgba(243, 234, 203, 1);
 
-    border: 1px solid rgba(0, 0, 0, .3);
-
-    font-family: 微软雅黑;
+    font-family: Dejavu Sans Mono;
 
     color: rgb(112, 66, 20);
 
-    font-size: 30px;
-    line-height: 40px;
-}
-
-.slide b{
-    display: block;
-    font-weight: bolder;
-}
-
-/* IMPRESS NOT SUPPORTED STYLES */
-
-.fallback-message {
-    font-family: 微软雅黑;
+    font-size: 20px;
     line-height: 2;
-    
-    display: none;
-    width: auto;
-    padding: 20px;
-    margin: 20px auto;
-
-    border-radius: 10px;
-    border: 1px solid #E4C652;
-    background: #EEDC94;
-}
-
-.impress-disabled .step,
-.impress-not-supported .step {
-    position: relative;
-    opacity: 1;
-    margin: 20px auto;
-}
-
-.impress-not-supported .fallback-message {
-    display: block;
 }
