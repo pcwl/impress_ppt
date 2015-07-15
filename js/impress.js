@@ -7,7 +7,7 @@
  *
  * Copyright 2011-2012 Bartek Szopka (@bartaz)
  *
- * Released under the MIT and GPL Licenses.
+ * Released under the MIT and GPL Licenses_.
  *
  * ------------------------------------------------
  *  author:  Bartek Szopka

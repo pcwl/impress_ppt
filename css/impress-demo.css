@@ -88,7 +88,7 @@ body     { pointer-events: auto; }
 /* COMMON STEP STYLES */
 
 .step {
-    width: 700px;
+    width: 1000px;
     height: 700px;
 
     -webkit-box-sizing: border-box;
@@ -175,7 +175,7 @@ body     { pointer-events: auto; }
 .slide {
     display: block;
 
-    width: 700px;
+    width: 1000px;
     height: 700px;
 
     padding: 60px;
