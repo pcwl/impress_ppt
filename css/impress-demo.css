@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
-    line-height: 1;
+    line-height: 2;
 }
 ol, ul {
     list-style: none;
@@ -54,9 +54,9 @@ body {
     background: rgb(255, 255, 255);
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(255, 255, 255)), to(rgb(0, 0, 0)));
 */
-    background: -webkit-radial-gradient(rgb(128, 128, 128), rgb(0, 0, 0));
-    background:    -moz-radial-gradient(rgb(128, 128, 128), rgb(0, 0, 0));
-    background:      -o-radial-gradient(rgb(128, 128, 128), rgb(0, 0, 0));
+    background: -webkit-radial-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    background:    -moz-radial-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    background:      -o-radial-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
     background:         radial-gradient(rgb(128, 128, 128), rgb(0, 0, 0));
 
     -webkit-font-smoothing: antialiased;
