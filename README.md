@@ -1,4 +1,4 @@
 impress ppt
 ==============
 
-ppt template bace on impress
+ppt template bace on impress.js
